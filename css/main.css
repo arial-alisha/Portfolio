@@ -21,7 +21,7 @@ h1 {
  h2 {
   text-transform: uppercase;
   font-family: sans-serif;
-  color:  white;
+  color: white;
   text-align:  center;
   width: 80%;
   margin: 0 auto;
@@ -68,3 +68,41 @@ body {
   margin: 0 auto;
   padding-top: 1em;
 }
+
+.soc-linkdn, .soc-facebook, .soc-google {
+    display: block;
+    background-image: url(../images/asset1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4em;
+    height: 4em;
+}
+
+.soc-facebook {
+    background-image: url(../images/asset1.png);
+}
+
+.soc-google {
+    background-image: url(../images/asset1.png);
+}
+
+.social {
+    font-size: 1.2rem;
+    color: #6a1d15;
+
+}
+.soc {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 1em;
+}
+
+.soc li {
+    height: 3em;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
