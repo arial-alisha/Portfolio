@@ -71,7 +71,7 @@ body {
 
 .soc-linkdn, .soc-facebook, .soc-google {
     display: block;
-    background-image: url(../images/asset1.png);
+    background-image: url(../images/asset2.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 4em;
@@ -83,7 +83,7 @@ body {
 }
 
 .soc-google {
-    background-image: url(../images/asset1.png);
+    background-image: url(../images/asset3.png);
 }
 
 .social {
