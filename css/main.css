@@ -4,8 +4,67 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 h1 {
-  font-family: "reklame-script sans-serif"
+  font-family: century gothic;
+  color: white;
+  text-align: center;
  }
 
-.tk-reklame-script
+ h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color:  white;
+  text-align:  center;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+ }
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #201732;
+}
+
+.bio {
+  padding: 1em;
+  width: 70%;
+  max-width: 25em;
+  color:  white;
+  margin: 0 auto;
+  background-color: RGBA(0,0,0,0.4);
+ }
+
+.bio p {
+  margin: 0;
+}
+ h3 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color:  white;
+  text-align:  center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1em;
+ }
+
+.centered {
+  vertical-align: middle;
+}
+
+.email {
+  color: white;
+  color:  white;
+  text-align:  center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
