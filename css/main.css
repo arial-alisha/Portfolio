@@ -14,7 +14,7 @@ html {
 
 .name {
   font-family: 'Courgette', cursive;
-  color: white;
+  color: #808080;
   text-align: center;
   padding-bottom: 0;
   margin: 0;
@@ -24,7 +24,7 @@ html {
  h2 {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: #808080;
   text-align:  center;
   width: 70%;
   margin: 0 auto;
@@ -32,9 +32,7 @@ html {
  }
 
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #201732;
+  background-color: white;
 }
 
 .bio {
@@ -44,6 +42,7 @@ body {
   color:  white;
   margin: 0 auto;
   background-color: RGBA(0,0,0,0.4);
+  font-family: 'Raleway', sans-serif
  }
 
 .bio p {
@@ -52,24 +51,20 @@ body {
  h3 {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
-  color:  white;
+  color:  #808080;
   text-align:  center;
   width: 80%;
   margin: 0 auto;
   padding-top: 1em;
  }
 
-.centered {
-  vertical-align: middle;
-}
-
 .email {
-  color: white;
-  color:  white;
+  color: #808080;
   text-align:  center;
   width: 80%;
   margin: 0 auto;
   padding-top: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .soc-linkdn, .soc-facebook, .soc-google {
@@ -109,3 +104,17 @@ body {
     margin-left: 5%;
 }
 
+.dog {
+  width: 190%;
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+  .dog {
+    width: 100%;
+  }
+}
