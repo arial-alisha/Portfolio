@@ -104,6 +104,11 @@ body {
     margin-left: 5%;
 }
 
+.dog {
+  width: 190%;
+  padding-top: 1em;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
