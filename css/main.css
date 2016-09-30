@@ -105,12 +105,15 @@ body {
 }
 
 .dog {
-  width: 190%;
+  width: 100%;
   padding-top: 1em;
+  overflow: hidden;
 }
-
+}
 @media only screen and (min-width: 25em) {
 
+.dog {
+  width: 100%;
 }
 
 @media only screen and (min-width: 43em) {
@@ -119,6 +122,7 @@ body {
   }
   .dog {
     padding-top: 2em;
+    width: 190%;
   }
 }
 
